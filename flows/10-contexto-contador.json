@@ -1,0 +1,1 @@
+﻿[{"id":"node0043","type":"tab","label":"10 Contexto Contador"},{"id":"node0045","type":"function","z":"node0043","name":"Contador","func":"let c = flow.get('c')||0; c++; flow.set('c',c); msg.payload=c; return msg;","x":370,"y":100}]
